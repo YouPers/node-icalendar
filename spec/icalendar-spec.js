@@ -119,9 +119,9 @@ describe("iCalendar", function() {
 
         var cal2 = cal.clone();
 
-        expect(cal).toNotBe(cal2);
+        expect(cal).not.toBe(cal2);
         expect(cal.components['VEVENT'][0])
-            .toNotBe(cal2.components['VEVENT'][0]);
+            .not.toBe(cal2.components['VEVENT'][0]);
         expect(cal2.toString())
             .toEqual(cal.toString())
 

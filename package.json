@@ -12,17 +12,17 @@
   },
   "main": "lib/index",
   "devDependencies": {
-    "grunt": "~0.4.1",
+    "grunt": "~0.4.5",
     "grunt-jasmine-node": "git://github.com/leider/grunt-jasmine-node.git#master",
-    "jasmine-node": ">=1.0.13"
+    "jasmine-node": ">=1.14.5"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/tritech/node-icalendar.git"
   },
   "dependencies": {
-      "moment": "~2.6.x",
-      "moment-timezone": "~0.0.x"
+      "moment": "~2.8.x",
+      "moment-timezone": "~0.2.x"
   },
   "engines": {
     "node": "*"
